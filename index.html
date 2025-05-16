@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Selamat Hari Guru</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #f0f4f8, #e6f7ff);
+      color: #333;
+      padding: 2rem;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #ffffffcc;
+      border-radius: 20px;
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      color: #005f73;
+      text-align: center;
+      font-size: 2.5rem;
+      animation: slideIn 1.5s ease;
+    }
+
+    .quote {
+      font-style: italic;
+      color: #555;
+      margin: 2rem 0;
+      text-align: center;
+      font-size: 1.2rem;
+      animation: fadeIn 3s ease;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1.1rem;
+      animation: fadeIn 2s ease;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 1rem;
+      color: #777;
+      animation: fadeIn 3s ease;
+    }
+
+    img {
+      display: block;
+      max-width: 300px;
+      margin: 2rem auto;
+      border-radius: 12px;
+      animation: popIn 2s ease;
+    }
+
+    audio {
+      display: none;
+    }
+
+    @keyframes fadeIn {
+      0% {opacity: 0; transform: translateY(20px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes slideIn {
+      0% {opacity: 0; transform: translateX(-100px);}
+      100% {opacity: 1; transform: translateX(0);}
+    }
+
+    @keyframes popIn {
+      0% {opacity: 0; transform: scale(0.9);}
+      100% {opacity: 1; transform: scale(1);}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Selamat Hari Guru!</h1>
+
+    <img src="https://cdni.iconscout.com/illustration/premium/thumb/teacher-teaching-student-2144789-1812825.png" alt="Guru dan Pelajar 3D"/>
+
+    <p>Terima kasih kepada semua guru yang telah mendidik kami tanpa jemu. Keringatmu tidak ternilai, nasihatmu terus terpahat dalam sanubari.</p>
+
+    <p>Guru adalah insan luar biasa yang sanggup berkorban masa, tenaga dan emosi demi melahirkan generasi berilmu. Walaupun kadangkala tidak dihargai secara zahir, namun jasa dan pengorbananmu akan sentiasa terpahat dalam sejarah kehidupan anak didikmu.</p>
+
+    <p class="quote">"Seorang guru bukan hanya penyampai ilmu, tetapi pembina harapan, pemahat masa depan."</p>
+
+    <p>Kepada semua guru, teruskan menyinari dunia dengan ilmu dan kasih sayangmu. Anda adalah lilin yang membakar diri demi menerangi orang lain.</p>
+
+    <footer>Daripada anak murid yang menghargaimu 💪🏻</footer>
+  </div>
+
+  <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/download/audio/2023/03/24/audio_377e67648e.mp3?filename=sad-piano-145894.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
